@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arquitetura</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        <img class="img-responsive" src="assets/img/empresa.jpg" alt="imagem da empresa">
+    
+
+        <div class="panel-group" class="container" id="accordion" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h3 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Desde 1935 </a>
+                        </h3>
+                    </div>
+
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">Desde 1935 trazendo casas, mansões e prédios lindos para o mundo</div>
+                </div>
+                </div>
+            
+                <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h3 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Alegria em colaborar para um mundo mais bonito
+                    </a>
+                    </h3>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+                    </div>
+                </div>
+                </div>
+                
+                <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h3 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Mais de 300 prêmios em design e em conforto.
+                    </a>
+                    </h3>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        Mais de 5 milhões de clientes satisfeitos em todo o mundo.
+                    </div>
+                </div>
+                </div>
+        </div>   
+    </div>
+</body>
+
+    <script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/navbar-animation-fix.js"></script>
+</html> 

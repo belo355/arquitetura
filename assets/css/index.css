@@ -1,0 +1,7 @@
+#accordion{
+    margin-top: 20px; 
+    transition: 1s all;
+}
+#accordion a:hover{
+    text-decoration: none;
+}
