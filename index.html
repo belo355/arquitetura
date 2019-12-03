@@ -165,7 +165,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZY3-MFxVdEw" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        </div>
+           </div>
     </section>
 
     <section class="container">
@@ -189,6 +189,28 @@
         </form>
     </section>
 
+    <section class="container radio">
+        <form action="form-inline">
+        <div class="form-group">
+            <label>
+                <input type="radio" name="contato-tipo-pessoa" checked>Pessoa Fisica
+            </label>
+            <label>
+                <input type="radio" name="contato-tipo-pessoa">Pessoa Juridica
+            </label>
+       </div>
+       <div class="form-group">
+            <select class="form-control form-inline">
+                <option disabled selected>Tipo de Solicitação</option>
+                <option>Casa Urbana</option>
+                <option>Casa no Campo</option>
+                <option>Apto</option>
+                <option>Studio</option>
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary">Enviar</button>
+    </form>
+    </section>
 
 
 </body>
